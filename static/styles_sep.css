@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color:rgb(242, 177, 153);
+    
+}
+
+.text_align_center{
+    text-align:center;
+}
+
+
+h1 {
+    color: white;
+    background-color: coral;
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    color:white;
+
+}
+
+hr {
+    border-color:coral;
+    height: 2px;
+    background-color:coral;
+}

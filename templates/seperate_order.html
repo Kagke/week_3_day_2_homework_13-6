@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles_sep.css') }}">
+    <title>{{title}} - Seperate Order</title>
+</head>
+<body>
+    <h1 class="text_align_center">Detailed Order</h1>
+    <hr>
+    <ul class="text_align_center">
+        <li>
+            {{order.customer_name}} {{order.order_date}}: {{order.size}} {{order.colour}} {{order.quantity}}
+        </li>
+    </ul>
+    <hr>
+    
+</body>
+</html>
